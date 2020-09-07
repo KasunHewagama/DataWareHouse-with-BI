@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Assignment_MultidimensionalCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>f6rH9C21gVC2XRiQ92LzO+4nxC8=5/11/2020 11:03:19 AM5/11/2020 11:03:19 AM</TimeStamp>
+        <ID>
+          <String>Assignment Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>CD7JaT10DL6FBtC/P+xmIlcTROs=5/11/2020 11:21:27 AM5/11/2020 11:07:56 AM</TimeStamp>
+        <ID>
+          <String>Assignment Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2N9Q/Pu6xO3iZ4d9o6excEPMEBQ=5/11/2020 12:04:38 PM5/11/2020 11:55:15 AM</TimeStamp>
+        <ID>
+          <String>Dim Part</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aZSMLL88LsliiuxV9GMSEbDTm5E=5/11/2020 12:11:04 PM5/11/2020 11:55:15 AM</TimeStamp>
+        <ID>
+          <String>Dim Color</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>444WO+3ZijGM6E0QooC2tEnxkFI=5/11/2020 12:14:19 PM5/11/2020 11:55:15 AM</TimeStamp>
+        <ID>
+          <String>Dim Set</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PrBAOW8kY0RVLpJp4KAdMYGtVhA=5/11/2020 12:16:19 PM5/11/2020 11:55:15 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>17RgsQM4AOrAs0F4cGNmL+Mhaks=5/15/2020 12:41:55 PM5/11/2020 11:55:15 AMayvamkzqfpd1IEg53KxrBt1g+xk=5/11/2020 11:55:16 AM5/11/2020 11:55:15 AM</TimeStamp>
+        <ID>
+          <String>Assignment Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>qC5m+Iqk08QO4ffn51/yPtJ/ncY=5/11/2020 6:39:09 PM5/11/2020 5:55:55 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>EzLxhYTQ1HvnxuBSgFgYLkBgwSU=5/11/2020 5:58:08 PM5/11/2020 10:48:45 AM</TimeStamp>
+      <ID>
+        <String>Assignment_MultidimensionalCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-05-15T07:12:44.41Z</LastDeployed>
+</DeploymentSnapshot>
